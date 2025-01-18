@@ -33,7 +33,7 @@ public class Hooks {
                 throw new IllegalArgumentException("Unsupported browser type: " + browser);
             }
 
-//driver.get().manage().window().maximize();
+            driver.get().manage().window().maximize();
             driver.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.get().navigate().to(url);
         }
