@@ -1,0 +1,7 @@
+[
+  { "username": "", "password": "secret_sauce", "errorMsg": "Epic sadface: Username is required" },
+  { "username": "standard_user", "password": "", "errorMsg": "Epic sadface: Password is required"},
+  { "username": "invalid_user", "password": "secret_sauce", "errorMsg": "Epic sadface: Username and password do not match any user in this service"},
+  { "username": "standard_user", "password": "invalid_secret_sauce", "errorMsg": "Epic sadface: Username and password do not match any user in this service"},
+  { "username": "", "password": "", "errorMsg": "Epic sadface: Username is required" }
+]
